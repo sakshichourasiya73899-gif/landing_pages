@@ -4,6 +4,7 @@ import { Sidebar } from "@/components/sidebar"
 import { MusicPlayer } from "@/components/music-player"
 
 export default function Home() {
+  console.log("[v0] Home page rendering")
   return (
     <div className="flex flex-col min-h-screen bg-background pb-24">
       {/* Main Content Area */}
